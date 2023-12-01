@@ -16,3 +16,21 @@ $body-bg: rgb(220, 236, 232);
 .twocolor-green {
   color: #00BFC4;	
 }
+
+
+// Vertical spacing between blocks of text
+$blockMargin: 20px;
+
+// Links and actions
+$linkColor: #13DAEC;
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: #FF5E99;
+$selectionColor: #fff;
+
+// Colors used for UI elements that are overlaid on top of
+// the presentation
+$overlayElementBgColor: 240, 240, 240;
+$overlayElementFgColor: 0, 0, 0;
+

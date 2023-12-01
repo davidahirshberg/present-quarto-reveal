@@ -2,16 +2,16 @@
 title: "QTM 220: Lecture 13"
 subtitle: "Misspecification and Statistical Inference"
 format: 
-  clean-revealjs:
+  revealjs:
     height: 1000
     width: 1290
     theme: [default, "class.scss"]
-    chalkboard: true
     smaller: true
     slide-number: true
     pdf-separate-fragments: true
     fig-format: svg
     html-math-method: mathjax
+    chalkboard: true
     include-in-header: 
       text: |
         <script>
@@ -27,6 +27,7 @@ knitr:
     dev.args:
       bg: transparent
 ---
+
 
 
 ```{r load-libraries}
